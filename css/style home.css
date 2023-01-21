@@ -186,24 +186,41 @@
     font-size: 25px;
     font-weight: bold;
 }
-.search_box{
-    width: 500px;
-    height: 45px;
+
+
+form{
     display: inline-block;
     position: relative;
     top: 170px;
     left: 110px;
     border-radius: 50px;
-    background-color: white;
     color: black;
     font-weight: bold;
 }
-.search_box p{
-    margin-top: 13px;
-    position: absolute;
-    left: 20px;
-    color: gray;
+
+form .text_search{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    border: none;
+    outline: none;
 }
+form a span{
+    padding: 13px 18px 13px 18px;
+    background-color: #04AA6D;
+    border-radius: 0 50px 50px 0;
+    position: relative;
+    right: -270px;
+    margin-top: -259px;
+}
+form a span:hover{
+    background-color: #ffffff;
+}
+
 .search_box span{
     color: white;
     position: absolute;
@@ -223,7 +240,7 @@
     font-weight: bold;
     font-size: 20px;
     position: relative;
-    top: 220px;
+    top: 230px;
     right: 270px;
     text-decoration: underline;
 }
