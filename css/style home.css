@@ -1,0 +1,236 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 75px;
+
+    background-color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+    position: relative;
+
+
+}
+.list{
+    position: absolute;
+    left: 80px;
+    bottom: 6px;
+}
+.list li{
+    padding:30px 20px;
+    margin-top: 80px;
+}
+.list a{
+
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -8px;
+
+}
+
+.list a:hover{
+    background-color: #04AA6D;
+    color: white;
+
+}
+.w3img {
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 6px;
+    left:23px;
+    padding-top: 10px;
+}
+.new{
+    font-size: 11px;
+    border: 2px solid black;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 19px;
+    margin-left: 6px;
+}
+.con{
+    position: absolute;
+    right: 0px;
+}
+.icon_nav{
+    position: absolute;
+    right: 550px;
+    top: 0px;
+
+}
+.icon_nav a{
+    display: inline-block;
+}
+.con a{
+    display: inline-block;
+}
+.con p{
+    font-size: 17px;
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+.material-symbols-outlined{
+    position: absolute;
+    top:18px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.icon_nav .material-symbols-outlined:hover{
+    color: #04AA6D;
+}
+.icon_nav a{
+    padding: 20px;
+    color: black;
+    position: relative;
+    top: 7px;
+    right: -50px;
+}
+
+#search{
+    font-weight: bolder;
+}
+#sun{
+    font-weight: bold;
+}
+.login{
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #04AA6D;
+    padding: 11px 45px;
+    border-radius: 50px;
+    margin-right: 27px;
+}
+.login:hover{
+    color: #efefef;
+    background-color: #04945e;
+}
+.paid{
+    color: black;
+    font-weight: normal;
+    font-size: 13px;
+    padding:10px 14px;
+    margin: 4px 8px;
+
+}
+.paid:hover{
+    box-sizing: border-box;
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 50px;
+    padding-bottom: -5px;
+}
+.website{
+    color: black;
+    height: 30px;
+    width: 140px;
+    background-color: pink;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.website:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+.website span{
+    background-color: white;
+    padding: 2px 7px;
+    margin-left:5px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 12px;
+    color:black;
+}
+.pro{
+    padding-right: 50px;
+}
+.pro span{
+    background-color: white;
+    color: black;
+}
+
+.search_header{
+    width: 100%;
+    height: 664px;
+    background-color: #282A35;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.search_header h2{
+    font-size: 70px;
+    position: relative;
+    top:100px;
+}
+.search_header .text{
+    color: #FFC0C7;
+    position: relative;
+    top: 130px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.search_box{
+    width: 500px;
+    height: 45px;
+    display: inline-block;
+    position: relative;
+    top: 170px;
+    left: 110px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.search_box p{
+    margin-top: 13px;
+    position: absolute;
+    left: 20px;
+    color: gray;
+}
+.search_box span{
+    color: white;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 0 50px 50px 0;
+    background-color: #04AA6D;
+    margin-bottom: 15px;
+    padding:12px 40px 9px 30px;
+    font-weight: bolder;
+}
+.search_box span:hover{
+    background-color: #04945e;
+}
+.search_header a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 220px;
+    right: 270px;
+    text-decoration: underline;
+}
+.search_header a:hover{
+    color: #04AA6D;
+}
+.HTML{
+    width: 100%;
+    background-color: #D9EEE1;
+}
